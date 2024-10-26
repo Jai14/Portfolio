@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        jersey: ['"Jersey 15"', 'serif'], // Add your custom font here
+        jersey: ['"Jersey 15"', 'serif'],
+         // Add your custom font here
       },
     },
   },

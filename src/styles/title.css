@@ -60,3 +60,21 @@
     animation: bounce 1s ease-in-out forwards;
     /* Adjust duration and easing as needed */
 }
+
+
+.custom-text-9xl {
+    font-size: 10.5rem;
+    line-height: 0.85; /* Change to your desired rem value */
+}
+
+.translate-right {
+    transition: transform 0.3s ease; /* Smooth transition for the transform */
+}
+
+.no-fill-hover:hover {
+    font-style: italic;
+    color: transparent;
+    transform: translateX(10px) translateY(5px) translateZ(5px);;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #160909; 
+}
