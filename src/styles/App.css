@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set the default font globally */
+html, body {
+  @apply h-screen w-screen font-jersey; /* Use the custom font */
+  background-color: #000000; /* Set a default background color if needed */
+  color: #ffffff; /* Set a default text color if needed */
+}

@@ -1,0 +1,62 @@
+@keyframes drop {
+    0% {
+        transform: translateY(-100px);
+        /* Start 100 pixels above */
+        opacity: 0;
+        /* Start invisible */
+    }
+
+    50% {
+        opacity: 0.5;
+        /* Midway visible */
+    }
+
+    100% {
+        transform: translateY(0);
+        /* End at its normal position */
+        opacity: 1;
+        /* Fully visible */
+    }
+}
+
+.drop {
+    animation: drop 0.8s ease-in-out forwards;
+    /* Adjust duration and easing as needed */
+}
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-100px);
+        /* Start above the normal position */
+        opacity: 0;
+        /* Start invisible */
+    }
+
+    60% {
+        transform: translateY(0);
+        /* Drop to the original position */
+        opacity: 1;
+        /* Fully visible */
+    }
+
+    75% {
+        transform: translateY(-30px);
+        /* First bounce */
+    }
+
+    90% {
+        transform: translateY(0);
+        /* Settle back down */
+    }
+
+    100% {
+        transform: translateY(-10px);
+        /* Slight bounce */
+    }
+}
+
+.bounce {
+    animation: bounce 1s ease-in-out forwards;
+    /* Adjust duration and easing as needed */
+}
